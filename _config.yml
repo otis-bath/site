@@ -10,6 +10,8 @@ baseurl: "/site"
 environment: staging
 data_dir: data
 
+remote_data_prefix: "https://otis-bath.github.io/data"
+
 # Pages
 collections:
   pages:
