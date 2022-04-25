@@ -4,9 +4,11 @@
 remote_theme: brockfanning/open-sdg@404-page-javascript
 
 # Replace this title as needed.
-title: general.site_title
+title: otis.bath_site
 url: ""
+baseurl: "/site"
 environment: staging
+data_dir: data
 
 # Pages
 collections:
