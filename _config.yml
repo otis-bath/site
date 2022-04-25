@@ -1,12 +1,16 @@
 # Jekyll configuration for Open SDG platform
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.5.0
+remote_theme: brockfanning/open-sdg@404-page-javascript
 
 # Replace this title as needed.
-title: general.site_title
+title: otis.bath_site
 url: ""
+baseurl: "/site"
 environment: staging
+data_dir: data
+
+remote_data_prefix: "https://otis-bath.github.io/data"
 
 # Pages
 collections:
